@@ -9,12 +9,22 @@
         
     </ActivityIndicator>-->
 
-    <BoxView Color="BlueViolet"
+    <!--<BoxView Color="BlueViolet"
              WidthRequest="200"
              HeightRequest="200"
              HorizontalOptions="Center"
              VerticalOptions="End"
              
-        </BoxView>
+        </BoxView>-->
+    <Button Text="Enviar"
+            BackgroundColor="Aquamarine"
+            FontSize="Large"
+            Clicked="btnClicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Image="Visual.png"
+            ContentLayout="Top,40">
+        
+    </Button>
 
 </ContentPage>

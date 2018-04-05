@@ -12,6 +12,12 @@ namespace DemoViews
 		public MainPage()
 		{
 			InitializeComponent();
+          
 		}
-	}
+        private void btnClicked(object sender, EventArgs e)
+        {
+            DisplayAlert("boton,", "evento desde Xaml", "Aceptar");
+        }
+
+    }
 }
