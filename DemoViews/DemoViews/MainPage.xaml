@@ -4,9 +4,17 @@
              xmlns:local="clr-namespace:DemoViews"
              x:Class="DemoViews.MainPage">
 
-    <ActivityIndicator Color="Blue"
+    <!--<ActivityIndicator Color="Blue"
                        IsRunning="True">
         
-    </ActivityIndicator>
+    </ActivityIndicator>-->
+
+    <BoxView Color="BlueViolet"
+             WidthRequest="200"
+             HeightRequest="200"
+             HorizontalOptions="Center"
+             VerticalOptions="End"
+             
+        </BoxView>
 
 </ContentPage>
